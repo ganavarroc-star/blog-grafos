@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Representación de Grafos</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header><h1>Representación de Grafos</h1></header>
+<div class="container">
+<p>Las dos formas principales de representar grafos son:</p>
+
+<h2>1. Lista de Adyacencia</h2>
+<p>Eficiente para grafos dispersos (pocas conexiones).</p>
+<pre>
+A: B, D
+B: A, C
+C: B, D, E
+D: A, C
+E: C
+</pre>
+
+<h2>2. Matriz de Adyacencia</h2>
+<p>Eficiente para consultar si una arista existe.</p>
+<pre>
+    A B C D E
+A [ 0 1 0 1 0 ]
+B [ 1 0 1 0 0 ]
+C [ 0 1 0 1 1 ]
+D [ 1 0 1 0 0 ]
+E [ 0 0 1 0 0 ]
+</pre>
+
+<p><a href="../index.html">Volver al inicio</a></p>
+</div>
+</body>
+</html>
